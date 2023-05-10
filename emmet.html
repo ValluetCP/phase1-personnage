@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emmet</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>liste 1</li>
+      </ul>
+    </nav>
+    <!-- ils sont parents -->
+    <div><h1>Notre Titre</h1></div>
+    <p>premier paragraphe</p>
+    <blockquote>une citation</blockquote>
+
+    <!-- div+div>p>span+em^bq-->
+    <div>Trouvé c'est gardé</div>
+    <div>
+      <p>
+        il était une fois<span> un prince charmant </span
+        ><em> nommé Shrek </em>qui vivait dans la forêt
+      </p>
+      <div>Rahim va piquer la princesse Fiona</div>
+      <blockquote></blockquote>
+    </div>
+    
+    <!-- p>em+p>span -->
+    <p>
+        <em></em>
+        <p><span></span></p>
+    </p>
+
+    <!-- p>em^p>span -->
+    <p><em></em></p>
+    <p><span></span></p>
+
+    <!-- p>em^p>span^^h1 -->
+    <p><em></em></p>
+    <p><span></span></p>
+    <h1></h1>
+
+    <!-- div>(header>ul>li*2>a)+footer>p -->
+    <div>
+        <header>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </header>
+        <footer>
+            <p></p>
+        </footer>
+
+    <!-- header+main>(section*3>div)^footer -->
+    <header></header>
+    <main>
+        <section>
+            <div></div>
+        </section>
+        <section>
+            <div></div>
+        </section>
+        <section>
+            <div></div>
+        </section>
+    </main>
+    <footer></footer>
+    </div>
+  </body>
+</html>

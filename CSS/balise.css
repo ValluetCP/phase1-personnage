@@ -1,0 +1,45 @@
+body {
+  background-color: #f5deb3;
+}
+
+/* HEADER*/
+
+header {
+  background-color: red;
+}
+
+/* MAIN*/
+
+main {
+  background-color: rgb(205, 156, 228);
+}
+
+/* SECTIONS */
+
+/* .sect1 {
+  margin: 10px 0px;
+  background-color: rgb(182, 182, 40);
+} */
+
+.couleurvert {
+  background-color: orange;
+  height: 90px;
+  color: white;
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.sect2 {
+  background-color: rgb(0, 183, 255);
+}
+/* .sect3 {
+  background-color: rgb(255, 0, 234);
+} */
+.sect4 {
+  background-color: rgb(81, 255, 0);
+}
+
+/* FOOTER */
+/* footer {
+  background-color: rgb(39, 26, 110);
+} */

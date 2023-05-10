@@ -1,0 +1,21 @@
+main{
+    margin: auto;
+    width: 400px;
+}
+
+.cer1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, violet, cyan);
+    /* display: inline-block; */
+    float: right;
+}
+.cer2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, red, cyan);
+    /* display: inline-block; */
+    float: right;
+}

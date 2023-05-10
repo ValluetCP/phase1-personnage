@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/formulaire.css" />
+    <title>formulaire</title>
+  </head>
+  <body>
+    <header></header>
+    <nav>
+      <ul>
+        <li><a href="./balise.html" target="_blank">Balise</a></li>
+        <li><a href="./emmet.html" target="_blank">Emmet</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Formulaire</h1>
+      <section class="section1">
+        <!-- je déclare mon formulaire avec la balise form -->
+        <form action="./index.html" method="">
+          <label for="pseudonyme">Pseudonyme:</label><br />
+          <input type="text" placeholder="Pseudonyme" id="pseudonyme" name="pseudonyme" required /><br />
+          <label for="motdepasse">Mot de passe <span title="le mot de passe peut contenir ...">*</span>:</label><br />
+          <input type="text" placeholder="Mot de passe" id="motdepasse" name="motdepasse" /><br />
+          <label for="email">Email:</label><br />
+          <input type="text" placeholder="Email" id="email" name="email" /><br />
+          <label for="photo">Photo</label><br />
+          <input type="file" id="photo" name="photo" />
+        </form>
+      </section>
+      <section class="section2">
+        <h3> Choix multiples</h3>
+        <div>
+          <p>Quelle destination choisissez-vous?</p>
+          <form action="">
+            <input type="checkbox" id="martinique" name="martinique" value="Bike">
+            <label for="martinique">Martinique</label><br>
+            <input type="checkbox" id="guadeloupe" name="guadeloupe" value="Car">
+            <label for="guadeloupe">Guadeloupe</label><br>
+            <input type="checkbox" id="guyane" name="guyane" value="Boat">
+            <label for="guyane"> Guyane</label>  
+          </form>
+        </div>
+        <div>
+          <p>Qui seront vos accompagnateurs?</p>
+          <form action="">
+            <input type="radio" id="famille" name="fav_language" value="FAMILLE">
+            <label for="famille">en famille</label><br>
+            <input type="radio" id="amis" name="fav_language" value="AMIS">
+            <label for="amis">entre amis</label><br>
+            <input type="radio" id="solo" name="fav_language" value="SOLO">
+            <label for="solo">solo</label><br>
+          </form>
+        </div>
+      </section>
+      <section class="section3">
+
+        <form action="">
+          <label for="commentaire">Commentaire</label><br />
+          <textarea name="commentaires" id="commentaire" cols="30" rows="10"></textarea>
+          <!-- <input type="text" id="commentaire" name="commentaire" /><br />
+          <input type="submit" value="Envoyer"> -->
+          <input type="submit" value="Annuler">
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
